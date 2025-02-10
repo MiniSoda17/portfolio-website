@@ -21,3 +21,5 @@ const WorkSection = (props: Props) => {
         </div>
     );
 }
+
+export default WorkSection;
