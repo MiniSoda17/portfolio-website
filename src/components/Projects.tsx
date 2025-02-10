@@ -1,6 +1,6 @@
 import ProjectBox from "./ProjectBox";
-import img1 from "../images/project1.png";
-import img2 from "../images/project2.png";
+import img1 from "../images/posturePlantPal.jpg";
+import img2 from "../images/HumansVsAliens.jpg";
 import img3 from "../images/project3.png";
 import img4 from "../images/project4.png";
 
@@ -16,22 +16,22 @@ function Projects() {
         </div>
         <div className="flex flex-col self-center justify-center items-center gap-12 py-12 md:w-[65%]">
           <ProjectBox
-            title="IOT Posture Monitor System"
-            desc="Clean and modern front-end application, developed using React and Tailwind to create a visually appealing website"
+            title="Posture Plant Pal, React Web App"
+            desc="An IOT posture monitoring system that relays realtime information on user’s posture through lighting, mechanical blooming of the plant and an interactive UX/UI dashboard."
             tags={["React.JS", "React Native", "Python", "C++", "Firebase"]}
             image={img1}
             live={true}
             link="https://posture-plant-pal.web.app/"
-            gitlink="https://github.com/Power-Puff-Plants/desktop-garden-web-app"
+            gitlink="https://github.com/orgs/Power-Puff-Plants/repositories"
           />
           <ProjectBox
-            title="Ionic mobile finance app"
-            desc="Mobile app made using Angular and Ionic, interactive with custom routing and pages. Techniques such as custom components and libraries were used to add more to the application including Charts and modals. "
-            tags={["Angular", "Ionic", "Typescript", "HTML", "CSS"]}
+            title="Humans vs Aliens: Tower Defense Game"
+            desc="A tower defense game made with Java and the LibGDX library. Features multiple levels, enemy types, and a unique game mechanic where the player can control the towers to shoot the enemies."
+            tags={["Java", "LibGDX", "Maven"]}
             image={img2}
-            live={true}
+            live={false}
             link="https://angular-mobile-dev.vercel.app"
-            gitlink="https://github.com/jjacob-dev/angular-mobile-dev"
+            gitlink="https://github.com/UQcsse3200/2023-studio-3"
           />
           <ProjectBox
             title="FullStack Survey App"

@@ -13,12 +13,12 @@ function ProjectBox(props: Props) {
   if (props.live) {
     buttons = (
       <div className="flex text-sm gap-2">
-        <a href={props.gitlink}>
+        <a href={props.gitlink} target="_blank">
           <button className="group border rounded-lg px-4 py-2 flex items-center hover:border-zinc-800">
             View code
           </button>
         </a>
-        <a href={props.link}>
+        <a href={props.link} target="_blank">
           <button className="group border rounded-lg px-4 py-2 flex items-center hover:border-zinc-800">
             Live demo
           </button>
@@ -28,7 +28,7 @@ function ProjectBox(props: Props) {
   } else {
     buttons = (
       <div className="text-sm">
-        <a href={props.gitlink}>
+        <a href={props.gitlink} target="_blank">
           <button className="group border rounded-lg px-4 py-2 flex items-center hover:border-zinc-800">
             View code
           </button>

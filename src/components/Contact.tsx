@@ -16,7 +16,7 @@ function Contact() {
               <h1>Mail</h1>
             </div>
             <div className="hover:text-blue-400">
-              <p>jjacobjurgens@gmail.com</p>
+              <p>isaac.arli@gmail.com</p>
             </div>
           </div>
           <div>
@@ -24,7 +24,7 @@ function Contact() {
               <h1>Location</h1>
             </div>
             <div className="hover:text-blue-400">
-              <p>Brisbane, Australia</p>
+              <p>Brisbane, Queensland, Australia</p>
             </div>
           </div>
         </div>

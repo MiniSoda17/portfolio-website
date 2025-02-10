@@ -10,12 +10,12 @@ function Footer() {
         </div>
         <div className="flex flex-1 justify-center items-center text-3xl gap-4">
           <span className="">
-            <a href="https://www.linkedin.com/in/jacob-jurgens-a37451289/">
+            <a href="https://www.linkedin.com/in/isaac-arli/" target="_blank">
               <FaLinkedin className="" />
             </a>
           </span>
           <span className="">
-            <a href="https://github.com/jjacob-dev">
+            <a href="https://github.com/MiniSoda17" target="_blank">
               <FaGithubSquare className="" />
             </a>
           </span>
