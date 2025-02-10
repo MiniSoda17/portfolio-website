@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-12 shadow-md bg-white text-gray-900">
       <div>
-        <h1 className="text-xl">Jacob.dev</h1>
+        <h1 className="text-xl">MiniSoda17</h1>
       </div>
 
       {/* Menu */}
@@ -34,6 +34,17 @@ const Navbar = () => {
             duration={500}
           >
             About
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="work"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Work
           </Link>
         </li>
         <li>

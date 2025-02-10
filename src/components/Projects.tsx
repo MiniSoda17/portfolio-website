@@ -1,7 +1,7 @@
 import ProjectBox from "./ProjectBox";
 import img1 from "../images/posturePlantPal.jpg";
 import img2 from "../images/HumansVsAliens.jpg";
-import img3 from "../images/project3.png";
+import img3 from "../images/plush.jpg";
 import img4 from "../images/project4.png";
 
 function Projects() {
@@ -34,29 +34,12 @@ function Projects() {
             gitlink="https://github.com/UQcsse3200/2023-studio-3"
           />
           <ProjectBox
-            title="FullStack Survey App"
-            desc="Simple survey website that communicates with a MySQL database using Python Flask library as the backend. Visualizes the surveys input data using charts and visuals"
-            tags={[
-              "React.JS",
-              "Typescript",
-              "Python",
-              "Flask",
-              "Tailwind",
-              "MySQL",
-              "AWS",
-            ]}
+            title="Facilities Management Optimisation as a Service"
+            desc="Creating an efficient system on the basis of AI and Machine Learning to create optimal routes and tasks for maintenance workers."
+            tags={["HTML", "CSS", "Javascript", "React Native", "Python", "C", "mySQL"]}
             image={img3}
             live={false}
-            gitlink="https://github.com/jjacob-dev/fullstack-survey-site"
-          />
-          <ProjectBox
-            title="Jump Hero, P5.Play JS game"
-            desc="JavaScript game with multiple stages and unique game physics, using public assets along with logos and custom assets made with Photoshop. Made possible using the p5play Library"
-            tags={["Javascript", "P5.Play", "HTML", "CSS"]}
-            image={img4}
-            live={true}
-            link="https://jump-hero.vercel.app/"
-            gitlink="https://github.com/jjacob-dev/Jump-hero"
+            gitlink="https://github.com/MiniSoda17/plush-technologies"
           />
         </div>
       </div>
