@@ -1,6 +1,7 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import oImage from "../images/IsaacArliProfile.jpg";
 import { Link } from "react-scroll";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -11,6 +12,13 @@ const Hero = () => {
       >
         <div className="flex flex-col-reverse gap-2 md:flex-row justify-center items-center max-w-5xl">
           <div className="flex flex-col gap-4 flex-1">
+              <TypeAnimation
+                sequence={["Welcome to my portfolio!", 4000, ""]}
+                wrapper="span"
+                speed={30}
+                className="xl:text-[3rem] font-bold text-[2rem]"
+                repeat={Infinity}
+              />
             <div className="text-5xl font-bold text-zinc-700">
               <h1>Isaac Arli</h1>
             </div>

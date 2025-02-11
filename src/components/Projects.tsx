@@ -6,7 +6,7 @@ import img4 from "../images/project4.png";
 
 function Projects() {
   return (
-    <div id="projects" className="flex justify-center py-20 bg-zinc-50">
+    <div id="projects" className="flex justify-center py-20">
       <div className="flex flex-col w-[80%]">
         <div>
           <h1 className="text-3xl font-semibold text-slate-700">Projects</h1>
