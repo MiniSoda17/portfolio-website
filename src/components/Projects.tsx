@@ -2,7 +2,6 @@ import ProjectBox from "./ProjectBox";
 import img1 from "../images/posturePlantPal.jpg";
 import img2 from "../images/HumansVsAliens.jpg";
 import img3 from "../images/plush.jpg";
-import img4 from "../images/project4.png";
 
 function Projects() {
   return (
