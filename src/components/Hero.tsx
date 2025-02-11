@@ -33,7 +33,7 @@ const Hero = () => {
               <a href="projects">
                 <Link
                   activeClass="active"
-                  to="projects"
+                  to="work"
                   spy={true}
                   smooth={true}
                   duration={500}
