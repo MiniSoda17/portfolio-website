@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <>
       <div id="work" className="flex justify-center pt-20 bg-zinc-50">
-        <div className="flex flex-col w-[60%]">
+        <div className="flex flex-col w-9/10 sm:w-3/5">
           <div>
             <h1 className="text-3xl font-semibold text-slate-700">Work</h1>
           </div>
